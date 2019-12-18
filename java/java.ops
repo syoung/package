@@ -1,0 +1,14 @@
+---
+checkurl: 'false'
+description: 'Java Development Kit (JDK). Due to licensing constraints, you must first go the the website, accept the conditions of usage, and then download the tar.gz file, place it in a remote location accessible to you, and update the url field accordingly.'
+envars: 
+  - JAVA_HOME: <VERSIONDIR>
+  - PATH: <VERSIONDIR>/bin:$PATH
+keywords:
+  - java
+  - jdk
+unzipped: jdk$version
+url: https://bitbucket.org/stuartpyoung/dnaseq-tools/raw/deff1092bace01ba619a4c999c8310f7c48acaa2/java/jdk-$version-linux-x64.tar.gz
+versions:
+  - 1.8.0_191
+website: http://www.oracle.com/technetwork/java/javase/downloads/index.html

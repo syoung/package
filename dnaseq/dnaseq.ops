@@ -1,0 +1,45 @@
+---
+packagename: dnaseq
+version: 0.0.1
+privacy: public
+owner: stuartpyoung
+repository: dnaseq
+hubtype: bitbucket
+description: 'Broad GATK Best Practices DNA-Seq workflow'
+url: git@github.com:syoung/dnaseq.git
+installtype: ops
+dependencies:
+  -
+    packagename: java
+    version: 1.8.0_191
+  -
+    packagename: samtools
+    version: 1.9
+  -
+    packagename: bamtools
+    version: 2.5.1
+  -
+    packagename: gatk
+    version: 4.0.10.1
+  -
+    packagename: fastqc
+    version: 0.11.8
+  -
+    packagename: pcapcore
+    version: 3.5.2
+  -
+    packagename: vcflib
+    version: 1.0.0-rc2
+  -
+    packagename: vcftools
+    version: 0.1.16
+keywords:
+  - 'Broad Best Practices'
+  - DNA-Seq
+  - DNASeq
+  - NGS
+  - GATK
+  - samtools
+type: application
+license: MIT
+website: https://github.com/syoung/dnaseq

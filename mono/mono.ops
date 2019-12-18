@@ -1,0 +1,16 @@
+---
+description: 'Mono is a software platform designed to allow developers to easily create cross platform applications part of the . NET Foundation. Sponsored by Microsoft, Mono is an open source implementation of the Microsoft .NET Framework based on the ECMA standards for C# and the Common Language Runtime'
+hubtype: github
+repository: mono
+packagename: mono
+owner: mono
+versions: 	
+	- 5.20.1.19
+	- 5.20.1.27
+	- 5.20.1.34
+	- 6.0.0.313
+	- 6.0.0.319
+	- 6.0.0.327
+	- 6.0.0.334
+	- 6.4.0.198
+website: https://www.mono-project.com

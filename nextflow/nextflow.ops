@@ -1,0 +1,12 @@
+---
+author: 'P. Di Tommaso'
+dependencies: 
+  - 
+    packagename: java
+    version: 1.8.0_191
+description: 'A DSL for data-driven computational pipelines'
+hubtype: github
+privacy: public
+repository: nextflow
+owner: nextflow-io
+website: https://github.com/nextflow-io/nextflow

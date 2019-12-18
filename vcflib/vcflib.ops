@@ -1,0 +1,19 @@
+---
+packagename: vcflib
+version: 1.0.0-rc2
+versions: [ "1.0.0-rc0", "1.0.0-rc1", "1.0.0-rc2" ]
+owner: ekg 
+repository: vcflib
+hubtype: github
+authors:
+  - 'Erik Garrison'
+checkurl: 'false'
+installtype: ops
+keywords:
+  - vcf
+  - vcflib
+  - variant
+  - 'developer tools'
+source: git
+type: application
+website: https://github.com/ekg/vcflib

@@ -1,0 +1,47 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+=head2
+
+APPLICATION:     test
+
+PURPOSE:         TEST *.pm PACKAGE INSTALLATION MODULES
+    
+USAGE: test <pmfile> [--help]
+
+    pmfile       Location of *.pm file
+    --help       :    Print help info
+
+=cut
+
+#### FLUSH BUFFER
+$| = 1;
+
+#### USE LIB
+use FindBin qw($Bin);
+use lib "$Bin/.";
+use lib "$Bin/../../lib";
+
+#### INTERNAL MODULES
+use test;
+
+#### SUBCOMMAND
+my $pmfile        =   shift @ARGV;
+print "*** No pmfile provided. See usage information ***\n" and usage() if not defined $pmfile;
+usage() if $pmfile =~ /^-h$/ or $pmfile =~ /^--help$/;
+
+my $object = test->new();
+eval { $object->testModule($pmfile) };
+if ( $@ ){
+  print "Error: $@\n";
+}
+print "Completed $0\n";
+
+
+
+sub usage {
+    print `perldoc $0`;
+    exit;
+}
+    

@@ -1,0 +1,20 @@
+---
+packagename: s3lib
+version: 0.0.1
+repository: s3lib
+owner: syoung
+hubtype: github
+privacy: private
+type: application
+authors:
+  - 'Deacon Sweeney'
+  - 'Stuart Young'
+description: 'A Python library containing tools for managing AWS S3 data'
+source: git
+installtype: ops
+keywords:
+  - s3
+  - python
+  - upload
+  - download
+  - 'file transfer'

@@ -1,0 +1,13 @@
+---
+authors:
+  - 'Young Stuart'
+description: 'MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets and specifically aimed at high-resolution MS data.'
+url: http://stuart-young-maxquant-public.s3.amazonaws.com/software/MaxQuant_$version.zip
+unzipped: MaxQuant
+versions:
+ - 0.0.0.0
+ - 1.6.3.4
+ - 1.6.6.0
+ - 1.6.7.0
+ - 1.6.8.0
+ - 1.6.10.43

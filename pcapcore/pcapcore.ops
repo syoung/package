@@ -1,0 +1,22 @@
+---
+packagename: pcapcore
+version: 3.5.2
+repository: PCAP-core
+owner: ICGC-TCGA-PanCancer
+branch: dev
+privacy: public
+description: 'NGS reference implementations and helper code for the IGCG/TCGA Pan-Cancer Analysis Project'
+url: https://github.com/ICGC-TCGA-PanCancer/PCAP-core.git
+hubtype: github
+installtype: ops
+authors:
+  - 'Raine Keiran'
+keywords:
+  - ICGC
+  - TCGA
+  - PCAP
+  - pancancer
+  - alignment
+  - analysis
+type: application
+website: https://github.com/ICGC-TCGA-PanCancer/PCAP-core
